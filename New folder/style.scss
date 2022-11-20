@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(190, 190, 190);
+}
+#body {
+    border: 1px solid;
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    box-shadow: 0px 0px 0px 0px rgb(190, 190, 54 );
+    margin: 10vh auto 0 auto;
+}
+button {
+    width: 97px;
+    height: 90px;
+    border: 0.5px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    border: 0px solid;
+    font-size: 25px;
+    background-color: rgb(92, 92, 255);
+}
+.display-screen {
+    height: 87px;
+    width: 397px;
+    text-align: right;
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: 400;
+    border: none;
+
+}
+.equals {
+    height: 140;
+
+}
+#equal {
+    background-color: rgb(92, 92, 255);
+    height: 180px;
+  }
+#equal:hover{
+    background-color: rgb(255, 43, 43);
+    transition: 0.4s ease-in-out;
+}
+.btn2 {
+  height: 20px;
+  width: 20px;
+  border: none;
+  background-color: black;
+  border-radius: 60px;
+  display: flex;
+  margin-left: 376px;
+}
+.main {
+    background-color: black;
+    color: whitesmoke;
+}
